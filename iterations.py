@@ -21,7 +21,16 @@ d={1:'500',2:'300',3:'400',4:'600',5:'700',6:'900'}
 #printing b
 for index, e in enumerate(b,start=1):
 	print(e,d[index])
+
 #printing c
 for index,f in enumerate(c,start=1):
 	print(f,d[index+len(b)])
+
+#using zip
+first=['hello','world']
+second=['how','are']
+
+#combining list and printing
+for x,t in zip(first,second):
+	print(x,t)
 
